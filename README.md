@@ -27,8 +27,8 @@ This project demonstrates how to set up a local Python project with dependencies
 3. **Install the local libraries**:
 
     ```bash
-    pip install ./libs/shared1
-    pip install ./libs/shared2
+    pip install -e ./libs/shared1
+    pip install -e ./libs/shared2
     ```
 
 4. **Run the main script**:
